@@ -1,9 +1,10 @@
 import { images } from "../utils/constants";
+
 export default function ArtSilkSaree() {
   return (
     <div className="p-4">
       <h2 className="text-slate-900 text-center font-bold text-3xl mb-8">
-        Art Silk Saree
+        Sarees
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 h-full ">
         {images.map((image, index) => (
@@ -17,7 +18,7 @@ export default function ArtSilkSaree() {
               height: "500px",
             }}
           >
-            <p className="bg-slate-900 p-2 rounded-lg">Art Silk Saree</p>
+            <p className="bg-slate-900 p-2 rounded-lg">Sarees</p>
           </div>
         ))}
       </div>

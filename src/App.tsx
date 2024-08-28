@@ -1,6 +1,7 @@
 import ArtSilkSaree from "./components/ArtSilkSaree";
 import BrandSection from "./components/BrandSection";
 import Carousel from "./components/Carousel";
+import Collections from "./components/Collections";
 import FAQSection from "./components/FAQsection";
 import FeatureBar from "./components/FeatureBar";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ function App() {
       <Carousel />
       <FeatureBar />
       <ArtSilkSaree />
+      <Collections />
       <BrandSection />
       <StoreSection />
       <FAQSection />

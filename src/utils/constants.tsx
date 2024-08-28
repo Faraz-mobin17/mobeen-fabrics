@@ -9,3 +9,13 @@ export const images = [
   "images/7.jpg",
   "images/8.jpg",
 ];
+export const sareeNames = [
+  "Art Silk Saree",
+  "Kora Organza Computer Work Saree",
+  "Saatan Saree",
+  "Katan Silk Saree",
+  "Cotton Saree",
+  "Dola Silk Saree",
+  "Plane Art Silk Saree",
+  "Tissue Saree",
+];

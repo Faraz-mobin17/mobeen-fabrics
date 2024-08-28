@@ -13,7 +13,8 @@ const StoreSection = () => {
           We look forward to seeing you soon!
         </p>
         <a
-          href="#store"
+          href="https://www.instagram.com/_mmdot_/"
+          target="_blank"
           className="bg-white text-black font-semibold py-3 px-6 rounded-lg shadow hover:bg-gray-200"
         >
           Visit Store

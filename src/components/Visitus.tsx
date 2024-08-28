@@ -10,7 +10,7 @@ export default function Visitus() {
             <div className="col-span-10">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14426.785127430252!2d83.0099519!3d25.3144064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fc847d003ad%3A0x29b1ea329342a6f7!2sMobeen%20Fabrics!5e0!3m2!1sen!2sin!4v1724684364516!5m2!1sen!2sin"
-                width="1200"
+                width="1000px"
                 height="450"
                 loading="lazy"
               ></iframe>
