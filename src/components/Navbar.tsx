@@ -1,8 +1,8 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { menuItems } from "../utils/constants";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-transparent z-10 absolute top-0 w-full h-[70px] text-white">
@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="sm:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <a
@@ -110,7 +110,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      )}
+      )} */}
     </nav>
   );
 };
