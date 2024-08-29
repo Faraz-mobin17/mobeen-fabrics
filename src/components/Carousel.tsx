@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const Carousel = () => {
@@ -7,32 +8,32 @@ const Carousel = () => {
   const slides = [
     {
       id: 1,
-      img: "images/slider/1.jpg",
+      img: "/images/slider/1.jpg",
       alt: "Slide 1",
     },
     {
       id: 2,
-      img: "images/slider/2.jpg",
+      img: "/images/slider/2.jpg",
       alt: "Slide 2",
     },
     {
       id: 3,
-      img: "images/slider/3.jpg",
+      img: "/images/slider/3.jpg",
       alt: "Slide 3",
     },
     {
       id: 4,
-      img: "images/slider/4.jpg",
+      img: "/images/slider/4.jpg",
       alt: "Slide 4",
     },
     {
       id: 5,
-      img: "images/slider/5.jpg",
+      img: "/images/slider/5.jpg",
       alt: "Slide 5",
     },
     {
       id: 6,
-      img: "images/slider/6.jpg",
+      img: "/images/slider/6.jpg",
       alt: "Slide 6",
     },
   ];
@@ -66,7 +67,13 @@ const Carousel = () => {
               transform: `translateX(${(index - currentIndex) * 100}%)`,
             }}
           >
-            <img src={slide.img} alt={slide.alt} className="object-cover" />
+            <Image
+              src={slide.img}
+              alt={slide.alt}
+              className="object-cover"
+              width={100}
+              height={100}
+            />
           </div>
         ))}
       </div>

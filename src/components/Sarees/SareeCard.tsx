@@ -1,5 +1,7 @@
 // src/components/SareeCard.js
 
+import Image from "next/image";
+
 const SareeCard = ({
   image,
   title,
@@ -14,7 +16,13 @@ const SareeCard = ({
   return (
     <>
       <div className="rounded overflow-hidden bg-transparent">
-        <img src={image} alt={title} className="w-full h-72 object-cover" />
+        <Image
+          src={image}
+          alt={title}
+          className="w-full h-72 object-cover"
+          width={100}
+          height={100}
+        />
         <div className="p-2 bg-transparent">
           <h5 className="text-xs text-slate-900 text-center">{title}</h5>
           <div className="flex items-center justify-between mt-2">

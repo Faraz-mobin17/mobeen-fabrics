@@ -17,11 +17,12 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8 items-center">
-                {menuItems.map((item) => {
+                {menuItems.map((item, index) => {
                   return (
                     <a
                       href="#"
                       className="block px-3 py-2 rounded-md text-base font-medium text-white"
+                      key={index}
                     >
                       {item}
                     </a>

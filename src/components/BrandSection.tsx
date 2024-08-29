@@ -1,5 +1,5 @@
 // src/components/BrandSection.js
-
+import Image from "next/image";
 const BrandSection = (): JSX.Element => {
   return (
     <section className="bg-white">
@@ -34,10 +34,12 @@ const BrandSection = (): JSX.Element => {
           </div>
         </div>
         <div className="md:w-1/3 mt-8 md:mt-0 md:ml-8">
-          <img
-            src="images/saree.webp"
+          <Image
+            src="/images/saree.webp"
             alt="Banarasi Saree"
             className="w-full h-auto rounded-lg shadow-md"
+            width={100}
+            height={100}
           />
         </div>
       </div>
