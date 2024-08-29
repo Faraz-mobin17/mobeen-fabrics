@@ -3,7 +3,7 @@
 const StoreSection = () => {
   return (
     <div className="relative bg-slate-900 p-4  flex items-center justify-center">
-      <div className="bg-opacity-50 p-10 text-center">
+      <div className="bg-opacity-50 md:p-10 p-4 text-center">
         <h2 className="text-4xl font-bold text-white mb-4">
           Our Banaras Store
         </h2>

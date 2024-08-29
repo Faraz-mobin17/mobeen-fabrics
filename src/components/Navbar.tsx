@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { menuItems } from "../utils/constants";
+import { menuItems } from "@/utils/constants";
 
 const Navbar = () => {
   // const [isOpen, setIsOpen] = useState(false);

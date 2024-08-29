@@ -1,29 +1,28 @@
 export default function Visitus() {
   return (
     <>
-      <div className="mt-8 p-4 bg-slate-900 text-white">
+      <div className=" p-4 bg-slate-900 text-white">
         <h2 className="text-center text-3xl  font-bold">
           You can visit us here!
         </h2>
         <div className="container mx-auto px-4 mt-8">
-          <div className="grid grid-cols-12 gap-4 place-items-center">
+          <div className="grid md:grid-cols-12 gap-4 place-items-center">
             <div className="col-span-10">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14426.785127430252!2d83.0099519!3d25.3144064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fc847d003ad%3A0x29b1ea329342a6f7!2sMobeen%20Fabrics!5e0!3m2!1sen!2sin!4v1724684364516!5m2!1sen!2sin"
-                width="1000px"
+                style={{
+                  maxWidth: "100%",
+                }}
                 height="450"
                 loading="lazy"
               ></iframe>
             </div>
-            <div className="col-span-2 ">
+            <div className="col-span-2">
               <h2 className="text-2xl  font-bold mb-3 text-pink-300">
                 Our Hours
               </h2>
               <p className=" text-[16px]">
-                <strong>Monday - Friday:</strong> 10am - 6pm
-              </p>
-              <p className=" text-[16px] mt-2">
-                <strong>Saturday:</strong> 10am - 2pm
+                <strong>Monday - Saturday:</strong> 10am - 9pm
               </p>
               <p className=" text-[16px] mt-2">
                 <strong>Sunday:</strong> Closed
@@ -34,7 +33,7 @@ export default function Visitus() {
               <address>
                 <p className=" text-[16px]">
                   <strong>Address:</strong> Shop No. 218, 2nd Floor, Salfiah
-                  Building, Govindpura, Varanasi, Uttar Pradesh 221001
+                  Building, Chowk, Varanasi, Uttar Pradesh 221001
                 </p>
                 <p className=" text-[16px]">
                   <strong>Phone:</strong> +91 7408991923
