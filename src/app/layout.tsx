@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Mobeen Fabrics | Home",
     template: "%s | Mobeen Fabrics",
   },
-  description: "Wholesaler of and Manufacturer of Banarasi Sarees",
+  description: "we are wholesaler and manufacturer of best banarasi sarees",
 };
 
 export default function RootLayout({

@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               {/* <img className="h-8 w-auto" src="/path-to-logo.png" alt="Logo" /> */}
-              <span className="ml-2 text-lg font-semibold uppercase">
+              <span className="ml-2 text-lg font-semibold uppercase bg-slate-900 p-2 ">
                 mobeen fabrics
               </span>
             </div>
@@ -20,11 +20,11 @@ const Navbar = () => {
                 {menuItems.map((item, index) => {
                   return (
                     <a
-                      href="#"
+                      href={item.url}
                       className="block px-3 py-2 rounded-md text-base font-medium text-white"
                       key={index}
                     >
-                      {item}
+                      {item.title}
                     </a>
                   );
                 })}
@@ -33,9 +33,6 @@ const Navbar = () => {
           </div>
           <div className="flex items-center">
             <div className="hidden sm:ml-4 sm:flex sm:items-center">
-              <button className="text-white bg-pink-300 px-5 py-2 rounded-3xl hover:bg-transparent hover:border hover:border-pink-300 transition-all border border-transparent">
-                Signup/Login
-              </button>
               <div className="ml-4">
                 <svg
                   className="h-6 w-6 text-gray-900 hover:text-gray-700"

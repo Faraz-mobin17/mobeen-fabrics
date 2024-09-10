@@ -1,6 +1,5 @@
 import Carousel from "@/components/Carousel";
 import Collections from "@/components/Collections";
-import FeatureBar from "@/components/FeatureBar";
 import Navbar from "@/components/Navbar";
 import SareeShowcase from "@/components/Sarees/SareeShowcase";
 import StoreSection from "@/components/StoreSection";
@@ -13,11 +12,10 @@ export default function Home() {
     <>
       <Navbar />
       <Carousel />
-      <FeatureBar />
       <SareeShowcase />
       <BrandSection />
-      <StoreSection />
       <Collections />
+      <StoreSection />
       <SocialMedia />
       <Visitus />
       <Footer />

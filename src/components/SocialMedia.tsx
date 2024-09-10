@@ -8,7 +8,7 @@ import {
 const SocialMedia = () => {
   return (
     <>
-      <section className="md:py-8 py-4 bg-white">
+      <section className="md:py-10 py-5 bg-white h-64">
         <h2 className="text-center text-3xl text-slate-900 font-bold mb-8">
           Follow Us on Social Media
         </h2>

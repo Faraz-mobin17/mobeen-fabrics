@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <footer className="bg-white text-slate-900 py-8 px-4">
       <div className="md:container md:mx-auto md:px-4 md:py-8">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-6 gap-8">
           {/* Connect Section */}
-          <div>
+          <div id="contact" className="md:col-span-3">
             <h3 className="font-semibold mb-4">CONNECT</h3>
             <p className="font-bold">Mobeen Fabrics</p>
             <p>
@@ -28,67 +28,8 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* About Us Section */}
-          <div>
-            <h3 className="font-semibold mb-4">ABOUT US</h3>
-            <ul>
-              <li>
-                <a href="#" className="hover:underline">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Our Stores
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Best Banarasi Saree Shop in Varanasi
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Help Section */}
-          <div>
-            <h3 className="font-semibold mb-4">HELP</h3>
-            <ul>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Delivery and Shipping Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Returns and Cancellation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms & Conditions
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  FAQ Page
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Join Our Newsletter Section */}
-          <div>
+          <div className="md:col-span-3">
             <h3 className="font-semibold mb-4">JOIN OUR NEWSLETTER</h3>
             <form className="flex">
               <input
@@ -97,7 +38,7 @@ const Footer = () => {
                 className="p-2 flex-grow border border-gray-300"
               />
             </form>
-            <button className="bg-slate-900 text-white px-4 py-2 d-block mt-3 w-full">
+            <button className="bg-slate-900 text-white px-4 py-2 d-block mt-3 w-full hover:bg-slate-800">
               Join
             </button>
           </div>

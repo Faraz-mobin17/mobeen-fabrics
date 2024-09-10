@@ -16,6 +16,7 @@ export default function Collections() {
               <div>Saatan Silk Sarees</div>
               <div>Pure Banarasi Sarees</div>
               <div>Wedding Banarasi Sarees</div>
+              <div>Pure Handloom Banarasi Jamewar Saree</div>
             </div>
           </div>
         </div>

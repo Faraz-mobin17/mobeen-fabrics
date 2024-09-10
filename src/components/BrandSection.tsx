@@ -2,12 +2,15 @@
 import Image from "next/image";
 const BrandSection = (): JSX.Element => {
   return (
-    <section className="bg-white">
+    <section className="p-4">
       <h2 className="text-center text-3xl font-bold text-slate-900">
         About us
       </h2>
-      <div className="bg-white p-10 flex flex-col md:flex-row items-center md:items-center ">
-        <div className="md:w-2/3">
+      <div className="md:container mx-auto">
+        <div
+          className="bg-white p-10 flex flex-col items-center
+       "
+        >
           <h2 className="text-3xl font-bold text-slate-900 mb-4">
             Pure Banarasi Silk Sarees - Mobeen Fabrics
           </h2>
@@ -32,15 +35,6 @@ const BrandSection = (): JSX.Element => {
               Call Us - +91 8887115543
             </a>
           </div>
-        </div>
-        <div className="md:w-1/3 mt-8 md:mt-0 md:ml-8">
-          <Image
-            src="/images/saree.webp"
-            alt="Banarasi Saree"
-            className="w-full h-auto rounded-lg shadow-md"
-            width={100}
-            height={100}
-          />
         </div>
       </div>
     </section>

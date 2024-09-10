@@ -67,12 +67,11 @@ const Carousel = () => {
               transform: `translateX(${(index - currentIndex) * 100}%)`,
             }}
           >
-            <Image
+            <img
               src={slide.img}
               alt={slide.alt}
               className="object-cover"
-              width={100}
-              height={100}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         ))}
