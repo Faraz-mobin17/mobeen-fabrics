@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
   description: "we are wholesaler and manufacturer of best banarasi sarees",
   keywords: ["banarasi", "sarees", "wholesaler", "manufacturer"],
+  verification: {
+    google: "449828c573cf2dbf",
+  },
 };
 
 export default function RootLayout({
