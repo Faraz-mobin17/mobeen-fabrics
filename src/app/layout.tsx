@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Mobeen Fabrics",
   },
   description: "we are wholesaler and manufacturer of best banarasi sarees",
+  keywords: ["banarasi", "sarees", "wholesaler", "manufacturer"],
 };
 
 export default function RootLayout({
